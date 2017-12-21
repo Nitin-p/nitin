@@ -13,6 +13,7 @@ public class Test {
 			Enumeration<NetworkInterface> ni=NetworkInterface.getNetworkInterfaces();
 			while(ni.hasMoreElements())
 			{
+				System.out.println("Dflkgndllfk");
 			 NetworkInterface n=ni.nextElement();
 				System.out.println(n.getName());
 			Enumeration<InetAddress> add=n.getInetAddresses();
