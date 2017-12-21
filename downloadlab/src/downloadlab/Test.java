@@ -14,6 +14,7 @@ public class Test {
 			while(ni.hasMoreElements())
 			{
 				System.out.println("Dflkgndllfk");
+				System.out.println("some addition);
 			 NetworkInterface n=ni.nextElement();
 				System.out.println(n.getName());
 			Enumeration<InetAddress> add=n.getInetAddresses();
